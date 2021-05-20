@@ -1,0 +1,13 @@
+type loginResponse {
+  serverToken: String,
+  userName: String,
+  userEmail: String
+}
+
+type Query {
+  test: String
+}
+
+type Mutation {
+  generateToken(userAccessCode: String!) : loginResponse
+}

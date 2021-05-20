@@ -1,1 +1,1 @@
-# node-graphql-postgres-server-boilerplate
+# node-graphql-postgres-server
